@@ -1,13 +1,13 @@
 
 body {
     margin: 0px;
-    background-color: gray;
+    background-color: sienna;
     text-align:center;
 }
 
 section {
     width: 700px;
-    margin: 0px auto;
+    margin: 20px auto;
 }
 
 #topbar {
