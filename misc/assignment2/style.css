@@ -1,8 +1,10 @@
 
 body {
     margin: 0px;
-    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-41.jpg");
+    background-color: gray;
     text-align:center;
+    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-41.jpg");
+
 }
 
 section {
