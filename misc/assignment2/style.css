@@ -15,6 +15,7 @@ section {
 #topbar {
     margin: auto;
     background-image: url("http://stream1.gifsoup.com/view/61654/ekg-o.gif");
+background-position: right;
     height: 200px;
     width: 100%;
     border-bottom-right-radius: 50px;
