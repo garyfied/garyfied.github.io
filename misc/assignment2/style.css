@@ -5,6 +5,11 @@ body {
     text-align:center;
 }
 
+section {
+    width: 700px;
+    margin: 0px auto;
+}
+
 #topbar {
     margin: auto;
     background: black;
@@ -19,7 +24,7 @@ body {
 
 img{
 
-	right: 90px;
+	right: 150px;
     position: relative;
 }
 
@@ -27,8 +32,9 @@ img{
     display: inline-block;
     color: white;
     font-family: fantasy;
-    position: relative;
-    top: -100px;
+    position: absolute;
+    top: 40px;
+    right: 400px;
     background-color: #00549e;
     padding-top: 5px;
     border: 5px #878888 solid;
@@ -42,8 +48,9 @@ img{
     display: inline-block;
     color: white;
     font-family: fantasy;
-    position: relative;
-    top: -100px;
+   	position: absolute;
+    top: 40px;
+    right: 220px;
     background-color: #00549e;
     padding-top: 5px;
     border: 5px #878888 solid;
@@ -58,8 +65,9 @@ img{
     display: inline-block;
     color: white;
     font-family: fantasy;
-    position: relative;
-    top: -100px;
+    position: absolute;
+    top: 40px;
+    right: 80px;
     background-color: #00549e;
     padding-top: 5px;
     border: 5px #878888 solid;
@@ -76,7 +84,7 @@ img{
     border: 5px #3c9dea solid;
     box-sizing: border-box;
     float: left;
-    margin: 20px 0px;
+    margin: 10px 0px;
 
 }
 
@@ -99,7 +107,7 @@ img{
     box-sizing: border-box;
     float: left;
     border-radius: 20px;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 #compbars {
@@ -156,14 +164,12 @@ img{
     width: 20px;
     border-radius: 100%;
     font-family: inherit;
-    top: 0px;
-    right: 0px;
     color: black;
     text-align: center;
     font-size: 13pt;
     border: 2px black solid;
     top: -10px;
-    left: 180px;
+    right: -120px;
 }
 
 #bottombar{
@@ -180,7 +186,7 @@ img{
 }
 
 #rightbar div {
-    margin: 20px;
+    margin: 10px;
     text-align: justify;
 }
 
