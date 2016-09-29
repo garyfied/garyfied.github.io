@@ -14,8 +14,10 @@ section {
 
 #topbar {
     margin: auto;
-    background-image: url("http://stream1.gifsoup.com/view/61654/ekg-o.gif");
-background-position: right;
+     background-image: url("http://stream1.gifsoup.com/view/61654/ekg-o.gif");
+	background-position: right;
+    background-position-x: right;
+    background-position-y: center;
     height: 200px;
     width: 100%;
     border-bottom-right-radius: 50px;
@@ -104,7 +106,6 @@ img{
     color: white;
     font-family: fantasy;
     background-color: #000000;
-	background-image: url(http://stream1.gifsoup.com/view/61654/ekg-o.gif);
     border: 5px #3c9dea solid;
     height: 400px;
     width: 80%;
