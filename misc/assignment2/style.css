@@ -3,7 +3,7 @@ body {
     margin: 0px;
     background-color: gray;
     text-align:center;
-    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-41.jpg");
+    background-image: url("http://www.designbolts.com/wp-content/uploads/2012/11/BO-Play-Free-Black-Dotted-Seamless-Pattern.jpg");
 
 }
 
@@ -14,7 +14,8 @@ section {
 
 #topbar {
     margin: auto;
-     background-image: url("http://stream1.gifsoup.com/view/61654/ekg-o.gif");
+    background-color: black;
+	background-position: right;
     background-position-x: right;
     background-position-y: center;
     height: 200px;
@@ -24,21 +25,56 @@ section {
     border-top-right-radius: 50px;
     position: relative;
     display: inline-block;
+    z-index: -9;
+
 }
 
-img{
+h1 {
+	margin: 0px;
+    color: #8ba7ff;
+    text-shadow: 2px 2px #b53636;
+    position: absolute;
+    top: 56px;
+    right: 8px;
+    font-size: 37px;
+    letter-spacing: 7px;
+    font-family: 'Bungee Inline', cursive;
+}
+
+h2 {
+	font-family: 'Economica', sans-serif;
+	font-size: 25px;
+	color: white;
+}
+
+#logo{
 
 	right: 150px;
     position: relative;
+    z-index: -12;
+}
+
+#roboticarm {
+       left: -215px;
+    top: -30px;
+    position: absolute;
+    z-index: -10;
+}
+
+#roboticarm2 {
+       left: 642px;
+    top: -40px;
+    z-index: -10;
+    position: absolute;
 }
 
 #button1 {
-    display: inline-block;
+       display: inline-block;
     color: white;
     font-family: fantasy;
     position: absolute;
-    top: 40px;
-    right: 400px;
+    top: 111px;
+    right: 300px;
     background-color: #00549e;
     padding-top: 5px;
     border: 5px #878888 solid;
@@ -52,9 +88,9 @@ img{
     display: inline-block;
     color: white;
     font-family: fantasy;
-   	position: absolute;
-    top: 40px;
-    right: 220px;
+    position: absolute;
+    top: 111px;
+    right: 140px;
     background-color: #00549e;
     padding-top: 5px;
     border: 5px #878888 solid;
@@ -66,12 +102,12 @@ img{
 }
 
 #button3 {
-    display: inline-block;
+        display: inline-block;
     color: white;
     font-family: fantasy;
     position: absolute;
-    top: 40px;
-    right: 80px;
+    top: 111px;
+    right: 16px;
     background-color: #00549e;
     padding-top: 5px;
     border: 5px #878888 solid;
@@ -81,37 +117,41 @@ img{
     border-radius: 20px;
 }
 #leftbar{
-    border-radius: 20px;
+       border-radius: 20px;
     background-color: #000000;
     height: 400px;
+    line-height: 50px;
     width: 20%;
     border: 5px #3c9dea solid;
     box-sizing: border-box;
-    float: left;
-    margin: 10px 0px;
+    vertical-align: top;
+    margin: 10px 17px 0px 0px;
+   
+    display: inline-block;
 
 }
 
 #leftbar ul {
 
-    list-style-type: none;
+       list-style-type: none;
     color: white;
     font-family: fantasy;
-    padding-top: 50%;
+    padding-top: 5%;
 }
 
 #rightbar{
 
     color: white;
-    font-family: fantasy;
+    
     background-color: #000000;
     border: 5px #3c9dea solid;
     height: 400px;
-    width: 80%;
+    width: 77%;
     box-sizing: border-box;
-    float: left;
     border-radius: 20px;
     margin: 10px 0px;
+    padding: 22px;
+    display: inline-block;
 }
 
 #compbars {
